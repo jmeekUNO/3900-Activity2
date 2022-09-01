@@ -1,4 +1,3 @@
-
 /*************************************
 This css file includes several different formatting examples
 GENERAL
@@ -6,175 +5,142 @@ GENERAL
 a {
   text-decoration: wavy;
   color: #002fff;
- }
-
+}
 img {
 max-width: 100%;
-
 }
-
- body {
-   font-family: 'Open Sans', sans-serif;
- }
-
-
- #wrapper {
-   max-width: 940px;
-   margin: 0 auto;
-   padding: 0 5%;
-
- }
-
- h3 {
-     margin: 0 0 1em 0;
- }
-
-
+/* Font for the body */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+h3 {
+  margin: 0 0 1em 0;
+}
 /*************************************
 HEADING
 **************************************/
-
 header {
   float: left;
   margin: 0 0 20px 0;
   padding: 2px 0 0 0;
   width: 100%;
-
 }
-
 .center {
  text-align: center
 }
-
-
 #logo {
-   text-align: center;
-   margin: 0;
-
- }
-
- h1  {
- font-family: 'Courier New', Courier, monospace;
- margin: 10px 0;
- font-size: 1.75em;
- font-weight: normal;
- line-height: 0.5;
- text-align: center;
- color: #ffffff;
- }
-
- h2  {
- font-size: 1.00em;
- font-weight: normal;
- margin: -5px 0 0;
-   color: #ffffff;
- }
-
-
-h3  {
-    font-size: 1.1em;
-    font-weight: 700;
-    margin: 15px 0 0;
+  text-align: center;
+  margin: 0;
 }
-
-
+/*************************************
+MAIN HEADING
+**************************************/
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.5;
+  text-align: center;
+  color: #ffffff;
+}
+h2 {
+  font-size: 1.00em;
+  font-weight: normal;
+  margin: -5px 0 0;
+  color: #ffffff;
+}
+h3 {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 15px 0 0;
+}
 /*************************************
 NAVIGATION
 **************************************/
- nav {
+nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
-  }
-
-  nav ul  {
-    list-style: none;
+}
+nav ul {
+  list-style: none;
 	margin: 0 10px;
 	padding: 0;
 }
-
 nav li {
   display: inline-block;
-
 }
-
 /*************************************
 FOOTER
 **************************************/
  footer {
- 
- text-align: center;
- clear: both;
- padding-top: 50px;
- color: rgb(255, 255, 255);
- position: absolute;
-    left: 0;
-    bottom: 100px;
-    height: 100px;
-    width: 100%;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  /* Positioning for the footer */
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  height: 100px;
+  width: 100%;
  }
-
 /*************************************
 PAGE:
 **************************************/
 .mydiv {background: rgb(255, 255, 255); width:250px; height: 250px;}
-
 .myimage {
-    float:left;
-    width:150px;
-    height:175px;
-    margin:20px;
-    border-radius: 20px;
+  float:left;
+  width:150px;
+  height:175px;
+  margin:20px;
+  border-radius: 20px;
 }
-
+/*************************************
+Formatting for the Colorado pictures
+**************************************/
 .colorado-photo {
-    display: block;
-    max-width: 500px;
-    margin-inline: 150px;
-    border-radius: 55px;
+  display: block;
+  max-width: 500px;
+  margin-inline: 150px;
+  border-radius: 55px;
 }
-
-
-
- /*************************************
-PAGE: ABOUT
+/*************************************
+My self picture
 **************************************/
 .profile-photo {
-
-    display: block;
-    max-width: 400px;
-    margin-inline: 5px;
-    border-radius: 70px;
+  display: block;
+  max-width: 400px;
+  margin-inline: 5px;
+  border-radius: 70px;
 }
-
 /*************************************
 COLORS
 **************************************/
-
  /* green header*/
-  header {
-   background: #ffffff;
-   border-color: #ffffff;
- }
-
-
-
+header {
+  background: #ffffff;
+  border-color: #ffffff;
+}
 /* nav background on mobile devices*/
 nav {
-   background: #ffffff;
+  background: #ffffff;
 }
-
 nav a, nav a:visited {
 	color: rgb(255, 255, 255);
 }
-
 /* selected nav link color*/
 nav a.selected, nav a:hover {
   color: #ffffff;
 }
 /* site body*/
 body {
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
