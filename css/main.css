@@ -5,7 +5,7 @@ GENERAL
 **************************************/
 a {
   text-decoration: wavy;
-  color: #f10303;
+  color: #002fff;
  }
 
 img {
@@ -60,16 +60,14 @@ header {
  font-weight: normal;
  line-height: 0.5;
  text-align: center;
-
-   color: #9a03f1;
-
+ color: #ffffff;
  }
 
  h2  {
  font-size: 1.00em;
  font-weight: normal;
  margin: -5px 0 0;
-   color: #df330a;
+   color: #ffffff;
  }
 
 
@@ -108,7 +106,7 @@ FOOTER
  text-align: center;
  clear: both;
  padding-top: 50px;
- color: #ccc;
+ color: rgb(255, 255, 255);
  position: absolute;
     left: 0;
     bottom: 100px;
@@ -119,7 +117,7 @@ FOOTER
 /*************************************
 PAGE:
 **************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
+.mydiv {background: rgb(255, 255, 255); width:250px; height: 250px;}
 
 .myimage {
     float:left;
@@ -145,38 +143,38 @@ PAGE: ABOUT
 
     display: block;
     max-width: 400px;
-    margin-inline: 30px;
-    border-radius: 55px;
+    margin-inline: 5px;
+    border-radius: 70px;
 }
 
 /*************************************
 COLORS
 **************************************/
 
-
  /* green header*/
   header {
-   background: #6ab47b;
-   border-color: #599a68;
+   background: #ffffff;
+   border-color: #ffffff;
  }
 
 
 
 /* nav background on mobile devices*/
 nav {
-   background: #599a6b;
+   background: #ffffff;
 }
 
 nav a, nav a:visited {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 /* selected nav link color*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #ffffff;
 }
 /* site body*/
 body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(76, 0, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    
 }
